@@ -121,8 +121,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 8879035}
-  - component: {fileID: 8879034}
   - component: {fileID: 8879036}
+  - component: {fileID: 8879034}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -138,14 +138,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8879033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05038757c5af84c42a4f76b81e5f1db2, type: 3}
+  m_Script: {fileID: 11500000, guid: 531ada9729542a2499b6e9fd7a9e1c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1575216658557418, guid: b79a5fc4f8c53f3458e7d78251342163, type: 2}
-  limit: 3
+  fireball: {fileID: 1575216658557418, guid: b79a5fc4f8c53f3458e7d78251342163, type: 2}
   frontdistance: 2.8
   sidedistance: 1.5
-  FireNumberLimit: 5
 --- !u!4 &8879035
 Transform:
   m_ObjectHideFlags: 0
@@ -171,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5948a80afb07f524aade7647f042d43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  limit_time: 60
+  limit_time: 45
 --- !u!1 &1656618324
 GameObject:
   m_ObjectHideFlags: 0

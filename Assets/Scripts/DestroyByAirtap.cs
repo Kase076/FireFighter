@@ -27,6 +27,7 @@ public class DestroyByAirtap : MonoBehaviour, IInputClickHandler {
     {
         if(_rigidbody.velocity.magnitude > 10f) {
             Destroy(gameObject);
+            FireGeneAI.FireNumberdecrement();
         }
     }
 
@@ -36,7 +37,8 @@ public class DestroyByAirtap : MonoBehaviour, IInputClickHandler {
             //GameObject obj = GazeManager.Instance.HitObject;
             //Destroy(obj);
             ScoreController.AddScore();
-            RandomIns.FireNumberdecrement();
+            //RandomIns.FireNumberdecrement();
+            FireGeneAI.FireNumberdecrement();
             Destroy(gameObject);
         }
     }

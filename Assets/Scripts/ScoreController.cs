@@ -10,6 +10,10 @@ public static class ScoreController {
 	public  static void  AddScore () {
         _score++;
 	}
-	
-		
+
+    public static void InitScore()
+    {
+        _score = 0;
+    }
+
 }
