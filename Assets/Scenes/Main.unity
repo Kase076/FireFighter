@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireball: {fileID: 1575216658557418, guid: b79a5fc4f8c53f3458e7d78251342163, type: 2}
-  frontdistance: 2.8
-  sidedistance: 1.5
+  frontdistance: 4.5
+  sidedistance: 1
 --- !u!4 &8879035
 Transform:
   m_ObjectHideFlags: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5948a80afb07f524aade7647f042d43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  limit_time: 45
+  limit_time: 50
 --- !u!1 &1656618324
 GameObject:
   m_ObjectHideFlags: 0
